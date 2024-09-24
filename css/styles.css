@@ -481,7 +481,12 @@ h2 {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
 }
 .form-input-footer::placeholder {
   font-family: "Roboto", sans-serif;
@@ -489,7 +494,7 @@ h2 {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color #ffffff; 
   padding-left: 16px;
 }
 .form-btn {
@@ -500,15 +505,20 @@ h2 {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border: none;
   color: #fff;
   gap: 24px;
   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+    line-height: 1.5;
+     letter-spacing: 0.04em;
+     cursor: pointer;
 }
 .icon-frame {
   fill: #fff;
+  margin-left: 16px;
 }
 /*=================FOOTER=============*/
 /*================MODAL===============*/
@@ -620,7 +630,7 @@ h2 {
 .textarea-form:hover,
 .textarea-form:focus {
   border: 1px solid #4d5ae5;
-  fill: #4d5ae5;
+  fill: #4D5AE5;
 }
 .label-form {
   font-weight: 400;
@@ -692,9 +702,9 @@ h2 {
 }
 .checkbox:checked + .label-checkbox > .castom-checkbox {
   border-radius: 2px;
-  background-color: #404bbf;
+  background-color: #404bbf; 
   border: none;
-  fill: #f4f4fd;
+  fill:#F4F4FD; 
 }
 .footer-form-btn {
   background-color: #4d5ae5;
